@@ -1,0 +1,110 @@
+.chat-area-cont {
+  width: 69%;
+  padding: 0;
+  color: white;
+}
+.chat-area-cont header,
+.chat-area-cont footer {
+  background: #193c51;
+}
+footer {
+  min-height: 60px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer input {
+  color: white;
+}
+.message_input {
+  color: white;
+  background: transparent;
+  width: 70%;
+  height: 40px;
+  border: none;
+  padding-left: 10px;
+  outline: none;
+  font-size: 18px;
+}
+.chat_area_cont {
+  height: 468px;
+  overflow: scroll;
+  width: 100%;
+}
+.name span {
+  font-size: 25px;
+}
+
+.back-icon {
+  display: none;
+}
+.css-i4bv87-MuiSvgIcon-root {
+  display: none;
+}
+.pinned-message {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 350px;
+  display: flex;
+}
+
+.chat-area-heading {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.header-icon {
+  width: 100px;
+  display: flex;
+  justify-content: space-around;
+}
+.mobile-view-pinned-message {
+  background-color: #193c51;
+  margin-top: 2px;
+  height: auto;
+  display: none;
+}
+.mobile-view-pinned-message-content {
+  color: white;
+  display: flex;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.pinned-cont {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  justify-content: space-between;
+  display: none;
+}
+.pinned-message {
+  display: flex;
+}
+
+@media (max-width: 1153px) {
+  .pinned-cont {
+    width: 100%;
+  }
+  .pinned-message {
+    display: none;
+  }
+  .mobile-view-pinned-message {
+    display: flex;
+  }
+  .message-search {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  .chat-area-cont {
+    width: 100%;
+  }
+  .back-icon {
+    display: flex;
+  }
+}

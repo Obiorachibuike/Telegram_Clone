@@ -1,0 +1,68 @@
+.side_nav{
+    background-color: #062131;
+    color: white;
+    overflow: hidden;
+    height: 100%;
+}
+.account-details-content img{
+    width: 70px;
+   border-radius: 50%;
+}
+.account-name-cont {
+    margin-top: 15px;
+}
+.css-h4y409-MuiList-root{
+    margin-top: 40px;
+}
+.account-details-cont{
+    margin-top: 20px;
+    width: 100%;
+
+}
+.account-name-content p{
+    color: #1976d2;
+}
+.account-name{
+    font-size: 20px;
+}
+.divide{
+    background-color: black;
+    height: 1px;
+    width: 100%;
+}
+.nav-text{
+    margin-left: 12px;
+}
+.side_nav {
+    /* Add your existing styles */
+  }
+  
+  .theme-toggle-icon {
+    margin-left: auto;
+  }
+  @keyframes rotate-in {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes rotate-out {
+    from {
+      transform: rotate(360deg);
+    }
+    to {
+      transform: rotate(0deg);
+    }
+  }
+  
+  .theme-toggle-icon.rotate-in {
+    animation: rotate-in 0.5s ease-in-out;
+  }
+  
+  .theme-toggle-icon.rotate-out {
+    animation: rotate-out 0.5s ease-in-out;
+  }
+    

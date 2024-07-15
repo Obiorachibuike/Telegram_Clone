@@ -1,0 +1,99 @@
+
+
+.sidebar {
+  width: 25%;
+  border-right: 1px solid #ccc;
+}
+
+.chat-area {
+  flex: 1;
+  padding: 20px;
+}
+
+.chat-area .MuiList-root {
+  max-height: calc(100vh - 128px); /* Adjust height as needed */
+  overflow-y: auto;
+}
+
+
+.telegram-cont {
+  /* display: flex; */
+  justify-content: center; /* Center align horizontally */
+  align-items: center; /* Center align vertically */
+  width: 100%;
+}
+
+.telegram-content {
+  display: flex;
+  justify-content: space-between; /* Distribute items evenly along the main axis */
+  align-items: flex-start; /* Align items at the start of the cross axis */
+  width: 100%;
+  /* max-width: 1200px; Adjust max-width as needed */
+  /* padding: 20px; */
+  box-sizing: border-box;
+}
+.chat-list {
+  width: 400px;
+  background: #193c51;
+  padding: 10px;
+  height: 610px;
+  overflow: scroll;
+  /* Add other styles as needed */
+}
+.full-screen{
+  display: flex;
+  width: 100%;
+}
+.mobile-view{
+  display: none;
+  width: 100%;
+}
+/* Default styles */
+.App {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+/* Light mode */
+.light-mode {
+  --background-color: #ffffff;
+  --text-color: #000000;
+}
+
+/* Dark mode */
+.dark-mode {
+  --background-color: #333333;
+  --text-color: #ffffff;
+}
+
+/* Add other styles as needed */
+/* Default styles */
+body {
+  background-color: var(--body-bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark mode specific styles */
+.dark-mode {
+  --body-bg-color: #062131;
+  --text-color: #ffffff;
+  --chat-list-bg-color: #193c51;
+}
+
+/* Light mode specific styles */
+.light-mode {
+  --body-bg-color: #ffffff;
+  --text-color: #000000;
+  --chat-list-bg-color: #f5f5f5; /* Adjust as needed */
+}
+
+
+@media (max-width: 800px) {
+  .mobile-view{
+    display: block;
+  }
+  .full-screen{
+    display: none;
+  }
+}

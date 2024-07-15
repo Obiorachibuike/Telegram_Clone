@@ -1,0 +1,31 @@
+/* Define styles for the sidebar */
+.drawerPaper {
+    width: 300px; /* Set the initial width of the sidebar */
+    transition: width 0.3s ease; /* Add transition for smooth animation */
+  }
+  .menu{
+    color: white;
+  }
+  /* .side-bar-cont{
+     width: 65px;
+     height: 700px;
+  
+} */
+/* .side-bar-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85px
+} */
+
+/* Media query for responsiveness */
+@media (max-width: 800px) {
+    .drawerPaper {
+        width: 400px; /* Adjust width for larger screens */
+    }
+    .side-bar-cont{
+        
+        background: #193c51;
+    }
+  }
+  

@@ -1,0 +1,13 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+body{
+  background-color:#062131;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  overflow: hidden;
+}
